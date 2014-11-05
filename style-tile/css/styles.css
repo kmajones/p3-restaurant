@@ -11,6 +11,7 @@ section {
 .color-1,
 .color-2,
 .color-3,
+.color-4,
 .pattern-1,
 .pattern-2,
 .pattern-3, 
@@ -20,12 +21,33 @@ section {
 	border: 1px solid #000;
 	float: left;
 	margin: 0 10px;
-	height: 50px;
-	width: 50px;
+	height: 100px;
+	width: 100px;
+}
+
+.color-1{
+	background: #CCCFC8;
+}
+
+.color-2{
+	background: #EC2026;
+}
+
+.color-3{
+	background: #3A3530;
+}
+
+.color-4{
+	background: #80A83F;
+}
+
+.pattern-1{
+	background: url('../img/brushed.png'); 
+}
+
+.pattern-2{
+	background: url('../img/brushed.png'); 
 }
 
 
 /* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
-}
