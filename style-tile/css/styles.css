@@ -24,21 +24,45 @@ section {
 	height: 100px;
 	width: 100px;
 }
-
-.color-1{
-	background: #CCCFC8;
+h1,h2,h3,h4{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #80A83F;
 }
 
-.color-2{
+body{
+	font-family:'Open Sans', sans-serif;
+	background: url('../img/brushed.png'); 
+
+}
+
+p, em{
+	font-size: .9em;
+	color:#3A3530;
+}
+
+a{
+	color:#80A83F;
+}
+
+/*Colors*/
+.color-1{
 	background: #EC2026;
 }
 
+.color-2{
+	background: #CCCFC8;
+
+}
+
 .color-3{
-	background: #3A3530;
+	background: #80A83F;
+
 }
 
 .color-4{
-	background: #80A83F;
+	background: #3A3530;
 }
 
 .pattern-1{
@@ -46,8 +70,23 @@ section {
 }
 
 .pattern-2{
-	background: url('../img/brushed.png'); 
+	background: url('../img/sos.png'); 
 }
 
+.pattern-3{
+	background: url('../img/dark.png'); 
+}
+
+.imagery-1{
+	background: url('../img/sushi1.jpg');
+}
+
+.imagery-2{
+	background: url('../img/whitebrick.jpg');
+}
+
+.imagery-3{
+	background: url('../img/sushi2.jpg') center no-repeat;
+}
 
 /* Show Grid */
