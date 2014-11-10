@@ -20,8 +20,8 @@ p{
 
  .intro h2{
 position:absolute;
-top:10%;
-left:40%;
+top:50%;
+left:auto;
 }
 
 .ui.segment{
