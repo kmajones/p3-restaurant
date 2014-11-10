@@ -15,6 +15,10 @@ p{
 
 }
 
+h1{
+	font-size: 3em;
+}
+
 /*Navigation*/
 .logo{
 	background: url('../img/logo1.png');
@@ -36,29 +40,31 @@ p{
 	min-height: 700px;
 	background-position:center center;
 	background-repeat: no-repeat;
-	width: 100%;
-	height: 100%;
+	
 	
 }
 
-.intro h1{
-	position:absolute;
-	top: 20%;
+h1{
+	position:relative;
+	top: 200px;
 }
 
-.ui.segment, .intro h1{
+
+.ui.segment, h1{
 	width:90%;
-	top:250px;
-	
+	background: none;
 	text-align: center;
 	margin:0 auto;
-	background: none;
-	border:none;
+
+	/*background: none;*/
+/*	border:none*/;
 	box-shadow: none
 }
 
 .segment > p {
-	color:#fff;
+	color:#000;
+	background: rgba(255, 255, 255, 0.5);
+	padding:1em;
 }
 
 .ui.grid{
@@ -141,7 +147,16 @@ iframe{
   .container{
   	max-width:768px;
   	width:100%;
+  }
+  h1{
+  	top:100px;
+  }
+.ui.segment{
+	position:relative;
+	top:200px;
 }
+}
+
 
 /* Tablet */
 @media screen and (min-width: 768px) {
@@ -153,11 +168,26 @@ iframe{
   	width:100%;
 }
 
+
+.ui.segment {
+	position:relative;
+	top:200px;
+	width:400px;
+}
+
 /* Desktop */
 @media screen and (min-width: 1140px) {
 
     body {
       /*background: yellow;    */  
     }
+
+    
+
+.ui.segment, h1{
+	top:250px;
+	
+	width:400px;
+}
 
 }
