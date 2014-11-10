@@ -166,6 +166,15 @@ iframe{
 	position:relative;
 	top:200px;
 }
+
+.ui.column.grid>.eleven.wide.column, .ui.grid>.column.row>.eleven.wide.column, .ui.grid>.eleven.wide.column, .ui.grid>.row>.eleven.wide.column{
+	width:100%;
+}
+.ui.column.grid>.five.wide.column, .ui.grid>.column.row>.five.wide.column, .ui.grid>.five.wide.column, .ui.grid>.row>.five.wide.column{
+	width:100%;
+}
+
+
 }
 
 
@@ -179,13 +188,19 @@ iframe{
   	width:100%;
 }
 
+.ui.column.grid>.eleven.wide.column, .ui.grid>.column.row>.eleven.wide.column, .ui.grid>.eleven.wide.column, .ui.grid>.row>.eleven.wide.column{
+	width:68.75%;
+}
+.ui.column.grid>.five.wide.column, .ui.grid>.column.row>.five.wide.column, .ui.grid>.five.wide.column, .ui.grid>.row>.five.wide.column{
+	width:31.25%;
+}
 
 .ui.segment {
 	position:relative;
 	top:200px;
 	width:400px;
 }
-
+}
 
 
 /* Desktop */
