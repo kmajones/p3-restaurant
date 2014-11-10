@@ -1,3 +1,8 @@
-$('.ui.accordion')
-  .accordion()
-;
+$(function(){
+		$('#menu').slicknav({
+			label: '',
+			prependTo:'nav',
+			duplicate: false,
+		});
+
+	});

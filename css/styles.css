@@ -2,7 +2,7 @@
 h1,h2,h3,h4{
 font-family: 'Open Sans', sans-serif;
 font-weight: 800;	
-color:#80A83F ;
+color:#000;
 }
 
 body{
@@ -17,16 +17,30 @@ p{
 }
 
 h1{
-	font-size: 3em;
+	font-size: 4em;
 }
 
 /*Navigation*/
 .logo{
 	background: url('../img/logo1.png');
-	width:50px;
-	height:30px;
+	width:150px;
+	height:100px;
+	display:block;
+	position:relative;
+	left:5%;
+	top:1%;
+
 
 }
+
+.slicknav_menu{
+	background:none;
+	position: fixed;
+	top:0;
+	right:0;
+}
+
+
 .ui.menu .item{
 	font-size:1.6rem;
 	padding:.6em .75em;
@@ -47,7 +61,7 @@ h1{
 
 h1{
 	position:relative;
-	top: 200px;
+	top:150px;
 }
 
 h2{
@@ -129,7 +143,9 @@ iframe{
   bottom:0em;
   margin-top:10px;
 }
-
+.ui.items>.item, .ui.items>.row>.item{
+	border-bottom:none;
+}
 
 /* colors - Yellow and light blue */
 .ui.yellow.labels .label, .ui.yellow.label{
@@ -150,6 +166,15 @@ iframe{
 	background:url('../img/sos.png');
 }
 
+
+/*Menu Styling*/
+
+
+.slicknav_nav a{
+	margin:0 auto;
+	text-align: center;
+}
+
 /* Mobile */
 @media screen and (min-width: 320px) {
 	body {
@@ -160,11 +185,11 @@ iframe{
   	width:100%;
   }
   h1{
-  	top:100px;
+  	top:50px;
   }
 .ui.segment{
 	position:relative;
-	top:200px;
+	top:150px;
 }
 
 .ui.column.grid>.eleven.wide.column, .ui.grid>.column.row>.eleven.wide.column, .ui.grid>.eleven.wide.column, .ui.grid>.row>.eleven.wide.column{
