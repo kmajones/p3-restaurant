@@ -18,17 +18,17 @@ p{
 	height:500px;
 }
 
- .intro h2{
-position:absolute;
-top:200px;
-left:40%;
+.intro h1{
+	position:absolute;
+	top: 20%;
 }
 
-.ui.segment{
-	width:50%;
+.ui.segment, .intro h1{
+	width:90%;
 	top:250px;
-	margin:0 23.5%;
+	
 	text-align: center;
+	margin:0 auto;
 	background: none;
 	border:none;
 	box-shadow: none
