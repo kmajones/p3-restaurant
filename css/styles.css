@@ -5,6 +5,10 @@ font-weight: 800;
 color:#80A83F ;
 }
 
+body{
+	background: url('../img/dark.png');
+}
+
 p{
 	font-family: 'Open Sans', sans-serif;
 	font-size: .9em; 
@@ -23,11 +27,18 @@ p{
 	padding:.6em .75em;
 }
 
+
+
 /*Description*/
 .intro{
-	background: url('../img/DSC_0092.jpg') no-repeat;
-	background-size: cover;
-	height:700px;
+	background: url('../img/sushi1.jpg');
+	background-attachment: fixed;
+	min-height: 700px;
+	background-position:center center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	
 }
 
 .intro h1{
@@ -77,7 +88,15 @@ iframe{
 
 
 /*Food Menu*/
-
+.food-menu{
+	background: url('../img/sushi2.jpg');
+	background-attachment: fixed;
+	min-height: 700px;
+	background-position: center center;
+	background-repeat: no-repeat;
+/*	width: 100%;
+	height: 100%;*/
+}
 
 .ui.items .item > .content{
   padding:0em 0em;
@@ -110,7 +129,7 @@ iframe{
 	display:block;
 	margin:auto auto;
 	width:100%;
-	max-width:1024px;
+	max-width:1140px;
 	background:url('../img/sos.png');
 }
 
@@ -127,7 +146,7 @@ iframe{
 /* Tablet */
 @media screen and (min-width: 768px) {
   body {
-    background: orange;  
+    /*background: orange; */ 
   }
    .container{
   	max-width:1140px;
@@ -138,7 +157,7 @@ iframe{
 @media screen and (min-width: 1140px) {
 
     body {
-      background: yellow;      
+      /*background: yellow;    */  
     }
 
 }
