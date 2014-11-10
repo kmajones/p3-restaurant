@@ -11,11 +11,23 @@ p{
 
 }
 
+/*Navigation*/
+.logo{
+	background: url('../img/logo1.png');
+	width:50px;
+	height:30px;
+
+}
+.ui.menu .item{
+	font-size:1.6rem;
+	padding:.6em .75em;
+}
+
 /*Description*/
 .intro{
 	background: url('../img/DSC_0092.jpg') no-repeat;
 	background-size: cover;
-	height:500px;
+	height:700px;
 }
 
 .intro h1{
@@ -99,7 +111,7 @@ iframe{
 	margin:auto auto;
 	width:100%;
 	max-width:1024px;
-	background: purple;
+	background:url('../img/sos.png');
 }
 
 /* Mobile */
